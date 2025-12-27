@@ -1,0 +1,29 @@
+students = {
+    "Alice": 85,
+    "Bob": 90,
+    "Charlie": 78
+}
+
+# Ask the user to enter a student's name
+name = input("Enter student name: ")
+
+# Check if the student is in the dictionary
+if name in students:
+    print("Marks:", students[name])
+else:
+    print("Student does not exist in the dictionary.")
+
+
+
+# 1. Create a list of numbers from 1 to 10
+numbers = list(range(1, 11))
+
+# 2. Extract the first five elements
+first_five = numbers[:5]
+
+# 3. Reverse the extracted elements
+reversed_list = first_five[::-1]
+
+# 4. Print the results
+print("Extracted list:", first_five)
+print("Reversed list:", reversed_list)
